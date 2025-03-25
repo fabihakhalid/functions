@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-double calculateInterest(double principal, double rate, double time) {
+double calculateInterest(double principal, double rate, double time) { 
     return (principal * rate * time) / 100;
 }
 
